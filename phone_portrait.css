@@ -191,9 +191,44 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 20rem;
-        height: 20rem;
+        width: 17rem;
+        height: 17rem;
         padding-top: 2rem;
+    }
+
+    .num {
+        background-color: #F7D8E5;
+        color: #121212;
+        width: 14rem;
+        height: 5rem;
+        line-height: 0.5;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 7px !important;
+        display: flex;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .num2 {
+        border-width: 3px;
+        border-style: solid;
+        border-right: red;
+        padding-left: 1rem;
+        border-top: none;
+        border-bottom: none;
+        border-color: #EC066A;
+    }
+    .num h3{
+        font-size: 1.5rem;
+    }
+    .num p{
+        font-size: 1rem;
     }
     /* Path Section Style Ends */
 
@@ -245,7 +280,7 @@
     .iphone-15 {
         align-items: center;
         place-items: center;
-        padding-top: 28rem;
+        padding-top: 35rem;
     }
     .iphone-15 img {
         display: block;
@@ -295,7 +330,7 @@
 
     /*Ready sec. Style Starts*/
     .ready {
-        margin-top: 10rem !important;
+        margin-top: 20rem !important;
         padding-top: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;

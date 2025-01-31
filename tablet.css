@@ -24,7 +24,6 @@
       min-width: 220px;
       position: relative;
       overflow-x: hidden;
-      background-color: #EC066A;
       }
       
       
@@ -305,7 +304,7 @@
           border-radius: 2rem;
           width: 80%;
           margin: 0 auto;
-          color: #EC066A;
+          color: #fff;
           font-size: 1rem;
           flex-direction: column;
       }
