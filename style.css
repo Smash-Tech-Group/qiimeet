@@ -1,0 +1,574 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+}
+
+html, body {
+min-width: 220px;
+position: relative;
+overflow-x: hidden;
+}
+
+
+.logo {
+    max-width: 130px;
+    max-height: 40px;
+}
+
+.btn {
+    background-color: #EC066A;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    color: #fff;
+    transition: all 200ms ease-in;
+    border: 1px solid #EC066A;
+
+}
+
+.signBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signBtn a{
+    color: #fff
+}
+
+.btn:nth-last-child(1){
+    margin-left: 24px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+/*Navbar Style Starts*/
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    position: absolute;
+    top: 0;
+    background: transparent;
+    z-index: 9999;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 40rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul a:hover{
+    color: #EC066A;
+    font-weight: bold;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+/*Navbar Style ends*/
+
+/*Main Style Starts*/
+/*Banner Style Starts*/
+.background-image {
+    background-image: url('./img/banner.png');
+    object-fit: cover;
+    background-size:cover;
+    background-position: top center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.10), rgba(220, 20, 60, 0.5));
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+.overlay h1, .overlay p {
+    text-align: center;
+  }
+
+.overlay h1 {
+    font-size: 3.5rem;
+  }
+
+.overlay p {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+.banner {
+    margin-top: 13rem;
+    align-items: center;
+    place-items: center;
+  }
+
+.bannerbtn{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.bannerbtn img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+/*Banner Style ends*/
+
+/* Path Section Style Starts */
+.path {
+    background: linear-gradient(#F7D8E5,#ffff);
+    height: 80vh;
+    columns: 2 250px;
+    padding: 5rem 10rem;
+    display: flex;
+}
+.path1{
+    padding-top: 4rem;
+}
+.path h1 {
+    font-size: 3rem;
+    color: #121212;
+}
+.path p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #888888;
+}
+.path2{
+    position: relative;
+}
+.path img {
+    width: 33rem;
+    height: 28rem;
+    margin-left: 5rem;
+    top: 0;
+}
+.num {
+    background-color: #F7D8E5;
+    color: #121212;
+    width: 15rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    margin-left: 6rem;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Path Section Style Ends */
+
+/*Why Qiimeet Style starts*/
+.whyqiimeet {
+    height: 80vh;
+    background-color: #fff;
+    color: #000;
+    padding: 8rem;
+    align-items: center;
+    place-items: center;
+}
+
+.whyqiimeet h1 {
+    font-size: 3.5rem;
+}
+
+.whyQMcolumns{
+    margin-top: 3rem;
+    columns: 4 250px;
+    align-items: center;
+    place-items: center;
+}
+
+.iconwrap{
+    background-color: #FFC2DC;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+.iconwrap .icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.whytxt {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.whytxt p {
+    margin-top: 1rem;
+}
+/*Why Qiimeet Style ends*/
+
+/*iphone15 sec. Style starts*/
+.iphone-15 {
+    align-items: center;
+    place-items: center;
+}
+.iphone-15 img {
+    display: block;
+    margin: 0 auto;
+    height: 41.5rem;
+    width: 43rem;
+}
+/*iphone15 sec. Style ends*/
+
+/*How it works Style starts*/
+.how {
+    height: 80vh;
+    color: #121212;
+    padding: 8rem;
+    align-items: center;
+    place-items: center;
+}
+
+.how h1 {
+    font-size: 3.5rem;
+}
+
+.howcolumns{
+    margin-top: 3rem;
+    columns: 4 250px;
+    align-items: center;
+    display: flex;
+    text-align: right;
+}
+
+.howwrap{
+    background-color: #EC066A;
+    border-radius: 50%;
+    padding: 1rem;
+    color: #ffff;
+    margin-left: 1rem;
+}
+
+.howtxt {
+    text-align: left;
+    margin-left: 2rem;
+    color: #121212;
+}
+
+.howtxt p {
+    margin-top: 1rem;
+    color: #888888;
+}
+/*How it works ends*/
+
+/*Ready sec. Style Starts*/
+.ready {
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    align-items: center;
+    place-items: center;
+    background-color: #FFE0ED;
+    border-radius: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    color: #EC066A;
+    font-size: 1.5rem;
+}
+#black {
+    color: #121212;
+}
+.appstore {
+    width: 10rem;
+    height: 3rem;
+}
+.phone2 {
+    background-position: bottom;
+    margin-left: 3rem;
+}
+/*Ready sec. Style ends*/
+
+/*Main Style ends*/
+  
+/*Footer Style Starts*/
+#footer{
+    background-color: #EC066A;
+    padding: 4rem;
+    margin-top: 8rem;
+}
+.foot {
+    color: #fff;
+    columns: 4 250px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2rem;
+}
+.foot2{
+    margin-top: 3rem;
+}
+
+/*Footer Style ends*/
+
+/*Media query Starts*/
+@media(max-width:1024px){
+    .hamburger{
+      display: block;
+    }
+  
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu{
+        position: fixed;
+        left: 100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #EC066A;
+        width: 90%;
+        text-align: center;
+        transition: 0.3s;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    ul {
+        border-radius: 0;
+    }
+  
+    .nav-item{
+      margin: 16px 0;
+    }
+  
+    .nav-menu.active{
+      left: 0;
+    }
+
+    .nav-link{
+        color: #fff;
+    }
+
+    .btn1{
+        display: none;
+    }
+    .overlay p {
+        margin: 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .signBtn {
+        margin-top: 0rem;
+    }
+
+    /* Path Section Style Starts */
+.path {
+    background: linear-gradient(#F7D8E5,#ffff);
+    padding: 2rem;
+    flex-direction: column;
+}
+.path1{
+    padding-top: 0;
+}
+.path h1 {
+    font-size: 2rem;
+    color: #121212;
+    text-align: center;
+}
+.path p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #888888;
+    text-align: center;
+}
+.path img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    height: 20rem;
+    padding-top: 2rem;
+}
+/* Path Section Style Ends */
+
+/*Why Qiimeet Style starts*/
+.whyqiimeet {
+    background-color: #fff;
+    color: #000;
+    padding-top: 10rem;
+    align-items: center;
+    place-items: center;
+}
+
+.whyqiimeet h1 {
+    font-size: 2rem;
+}
+
+.whyQMcolumns{
+    margin-top: 2rem;
+    align-items: center;
+    place-items: center;
+    flex-direction: column;
+}
+
+.iconwrap{
+    background-color: #FFC2DC;
+    border-radius: 100% !important;
+    padding: 1rem;
+}
+
+.iconwrap .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.whytxt {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.whytxt p {
+    margin: 1rem 1.5rem;
+}
+/*Why Qiimeet Style ends*/
+
+/*iphone15 sec. Style starts*/
+.iphone-15 {
+    align-items: center;
+    place-items: center;
+    padding-top: 28rem;
+}
+.iphone-15 img {
+    display: block;
+    margin: 0 auto;
+    height: 23rem;
+    width: 24rem;
+}
+/*iphone15 sec. Style ends*/
+
+/*How it works Style starts*/
+.how {
+    color: #121212;
+    padding: 4rem;
+    align-items: center;
+    place-items: center;
+}
+
+.how h1 {
+    font-size: 2rem;
+}
+
+.howcolumns{
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.howwrap{
+    background-color: #EC066A;
+    border-radius: 100% !important;
+    color: #ffff;
+    margin-top: 1rem;
+}
+
+.howtxt {
+    text-align: center;
+    margin-left: 2rem;
+    color: #121212;
+}
+
+.howtxt p {
+    margin-top: 1rem;
+    color: #888888;
+}
+/*How it works ends*/
+
+/*Ready sec. Style Starts*/
+.ready {
+    margin-top: 20rem !important;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    place-items: center;
+    background-color: #FFE0ED;
+    border-radius: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    color: #EC066A;
+    font-size: 1rem;
+    flex-direction: column;
+}
+#black {
+    color: #121212;
+}
+.appstore {
+    width: 8rem;
+    height: 3rem;
+}
+.phone2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    background-position: bottom;
+    width: 20rem;
+}
+/*Ready sec. Style ends*/
+
+  }
