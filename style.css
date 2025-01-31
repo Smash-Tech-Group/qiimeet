@@ -203,6 +203,16 @@ nav ul a:hover{
     text-align: center;
 }
 
+.num2 {
+    border-width: 3px;
+    border-style: solid;
+    border-right: red;
+    padding-left: 1rem;
+    border-top: none;
+    border-bottom: none;
+    border-color: #EC066A;
+}
+
 /* Path Section Style Ends */
 
 /*Why Qiimeet Style starts*/
