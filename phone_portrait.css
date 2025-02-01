@@ -132,6 +132,7 @@
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding: 1rem;
   }
   
 .overlay h1, .overlay p {
@@ -314,6 +315,7 @@
         border-radius: 100% !important;
         color: #ffff;
         margin-top: 1rem;
+        width: 3rem;
     }
 
     .howtxt {
@@ -338,7 +340,7 @@
         place-items: center;
         background-color: #FFE0ED;
         border-radius: 2rem;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         color: #EC066A;
         font-size: 1rem;
@@ -348,7 +350,7 @@
         color: #121212;
     }
     .appstore {
-        width: 8rem;
+        width: 5rem;
         height: 3rem;
     }
     .phone2 {
@@ -357,7 +359,7 @@
         margin-right: auto;
         margin-top: 2rem;
         background-position: bottom;
-        width: 20rem;
+        width: 16rem;
     }
 /*Ready sec. Style ends*/
 
