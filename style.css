@@ -346,20 +346,40 @@ nav ul a:hover{
     background-color: #EC066A;
     padding: 4rem;
     margin-top: 8rem;
-}
-.foot {
-    color: #fff;
-    columns: 4 250px;
-}
 
-.foot a{
+}
+.socials{
+    margin-left: 50rem;
+    margin-bottom: 2rem;
+}
+.socials img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+.downloads{
+    color: #fff;
+}
+.downloads img {
+    width: 9rem;
+    height: 3rem;
+}    
+.foot2{
+    display: flex;
+    color: #fff;
+}
+.footw{
+    display: flex;
+    margin-left: 15rem;
+    justify-content: space-evenly;
+}
+.footw a{
     text-decoration: none;
     color: #fff;
     line-height: 2rem;
 }
-.foot2{
-    margin-top: 3rem;
+.foottext{
+    margin-left: 8rem;
 }
-
 /*Footer Style ends*/
 
