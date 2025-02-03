@@ -255,15 +255,15 @@
         flex-direction: column;
     }
 
-    .iconwrap{
+    /* .iconwrap{
         background-color: #FFC2DC;
         border-radius: 100% !important;
         padding: 1rem;
-    }
+    } */
 
     .iconwrap .icon {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     .whytxt {
@@ -310,13 +310,18 @@
         flex-direction: column;
     }
 
-    .howwrap{
+    .how img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* .howwrap{
         background-color: #EC066A;
         border-radius: 100% !important;
         color: #ffff;
         margin-top: 1rem;
         width: 3rem;
-    }
+    } */
 
     .howtxt {
         text-align: center;
@@ -367,20 +372,44 @@
 #footer{
     background-color: #EC066A;
     padding: 3rem;
-    margin-top: 5rem;
-}
-.foot {
-    color: #fff;
-    columns: 4 250px;
-}
+    margin-top: 7rem;
 
-.foot a{
+}
+.footlogo{
+    width: 6rem;
+}
+.socials{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.socials img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+.downloads{
+    color: #fff;
+}
+.downloads img {
+    width: 9rem;
+    height: 3rem;
+}    
+.foot2{
+    display: flex;
+    color: #fff;
+}
+.footw{
+    display: flex;
+    margin-left: 15rem;
+    justify-content: space-evenly;
+}
+.footw a{
     text-decoration: none;
     color: #fff;
     line-height: 2rem;
 }
-.foot2{
-    margin-top: 3rem;
+.foottext{
+    margin-left: 8rem;
 }
 
 /*Footer Style ends*/

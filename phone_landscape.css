@@ -254,16 +254,16 @@
           columns: 2 250px;
       }
   
-      .iconwrap{
+      /* .iconwrap{
           background-color: #FFC2DC;
           border-radius: 100% !important;
           padding: 1rem;
-      }
+      } */
   
       .iconwrap .icon {
-          width: 1.5rem;
-          height: 1.5rem;
-      }
+        width: 2rem;
+        height: 2rem;
+    }
   
       .whytxt {
           text-align: center;
@@ -308,13 +308,18 @@
           text-align: center;
           flex-direction: column;
       }
+
+      ..how img {
+        width: 2rem;
+        height: 2rem;
+    }
   
-      .howwrap{
+      /* .howwrap{
           background-color: #EC066A;
           border-radius: 100% !important;
           color: #ffff;
           margin-top: 1rem;
-      }
+      } */
   
       .howtxt {
           text-align: center;
