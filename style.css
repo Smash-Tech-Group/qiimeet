@@ -13,7 +13,6 @@ position: relative;
 overflow-x: hidden;
 }
 
-
 .logo {
     max-width: 130px;
     max-height: 40px;
@@ -217,7 +216,17 @@ nav ul a:hover{
     border-bottom: none;
     border-color: #EC066A;
 }
-
+.odometer.plus {
+    position: relative;
+  }
+  
+  .odometer.plus::after {
+    content: "+";
+    position: absolute;
+    top: 0;
+    right: -16px;
+    font-size: 20px;
+  }
 /* Path Section Style Ends */
 
 /*Why Qiimeet Style starts*/
@@ -393,3 +402,4 @@ nav ul a:hover{
 }
 /*Footer Style ends*/
 
+   

@@ -1,5 +1,5 @@
 /*Media query Starts*/
-@media(max-width:1024px){
+@media(max-width:400px){
     .hamburger{
       display: block;
     }
@@ -18,7 +18,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "DM Sans", serif;
+        font-family: "DM Sans", serif;        
     }
     
     html, body {
@@ -145,7 +145,7 @@
 
 .overlay p {
     margin-top: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
 .banner {
@@ -262,8 +262,8 @@
     } */
 
     .iconwrap .icon {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .whytxt {
@@ -274,6 +274,7 @@
 
     .whytxt p {
         margin: 1rem 1.5rem;
+        color: #888888 !important;
     }
     /*Why Qiimeet Style ends*/
 
@@ -297,10 +298,13 @@
         padding: 4rem;
         align-items: center;
         place-items: center;
+        width: 100%;
+        text-align: center;
     }
 
     .how h1 {
         font-size: 2rem;
+        text-align: center;
     }
 
     .howcolumns{
@@ -311,8 +315,12 @@
     }
 
     .how img {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
+        margin-top: 0.2rem;
+    }
+    .how h4{
+        margin-top: 1rem;
     }
 
     /* .howwrap{
@@ -337,7 +345,7 @@
 
     /*Ready sec. Style Starts*/
     .ready {
-        margin-top: 20rem !important;
+        margin-top: 25rem !important;
         padding-top: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -355,8 +363,8 @@
         color: #121212;
     }
     .appstore {
-        width: 5rem;
-        height: 3rem;
+        width: 8rem;
+        height: 2rem;
     }
     .phone2 {
         display: block;
@@ -371,9 +379,8 @@
 /*Footer Style Starts*/
 #footer{
     background-color: #EC066A;
-    padding: 3rem;
-    margin-top: 7rem;
-
+    padding: 2rem;
+    margin-top: 5rem;
 }
 .footlogo{
     width: 6rem;
@@ -391,27 +398,17 @@
     color: #fff;
 }
 .downloads img {
-    width: 9rem;
-    height: 3rem;
+    width: 8rem;
+    height: 2rem;
 }    
 .foot2{
     display: flex;
-    color: #fff;
+    flex-direction: column;
 }
-.footw{
+.footw {
     display: flex;
-    margin-left: 15rem;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
-.footw a{
-    text-decoration: none;
-    color: #fff;
-    line-height: 2rem;
-}
-.foottext{
-    margin-left: 8rem;
-}
-
 /*Footer Style ends*/
 
 
