@@ -20,6 +20,12 @@
         box-sizing: border-box;
         font-family: "DM Sans", serif;        
     }
+
+
+    /* footer styles */
+    .foot1{
+        padding-top: 10px;
+    }
     
     html, body {
     min-width: 220px;
@@ -389,10 +395,7 @@
 .footlogo{
     width: 6rem;
 }
-.socials{
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
+
 .socials img {
     width: 1.5rem;
     height: 1.5rem;
@@ -405,14 +408,11 @@
     width: 8rem;
     height: 2rem;
 }    
-/* .foot2{
+.foot2{
     display: flex;
-    flex-direction: column;
-} */
-.footw {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+
 /*Footer Style ends*/
 
 
