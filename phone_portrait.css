@@ -412,6 +412,9 @@
     display: flex;
     flex-direction: row;
 }
+.footw{
+    color: #fff;
+}
 
 /*Footer Style ends*/
 
