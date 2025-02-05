@@ -352,8 +352,9 @@ nav ul a:hover{
     background-color: #FFE0ED;
     border-radius: 3rem;
     width: 80%;
-    margin: 5rem auto;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     color: #EC066A;
     font-size: 1.5rem;
 }
@@ -376,6 +377,7 @@ nav ul a:hover{
 #footer{
     background-color: #EC066A;
     padding: 2rem;
+    margin-top: 5rem;
 }
 
 .socials{
@@ -405,7 +407,9 @@ nav ul a:hover{
 .footw{
     display: flex;
     justify-content: space-evenly;
-    margin: 1.5rem 0 0;
+    color: #fff;
+    margin-top: 0;
+    margin-left: 20rem;
 }
 .footw a{
     text-decoration: none;

@@ -415,7 +415,9 @@
 .footw{
     color: #fff;
 }
-
+.foot p {
+    font-size: 0.8rem;
+}
 /*Footer Style ends*/
 
 
