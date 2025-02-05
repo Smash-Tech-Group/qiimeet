@@ -48,10 +48,10 @@ const createOdometer = (el, value) => {
 };
 
 const subscribersOdometer = document.querySelector(".subscribers-odometer");
-createOdometer(subscribersOdometer, 8000);
+createOdometer(subscribersOdometer, 80000);
 
 // const videosOdometer = document.querySelector(".videos-odometer");
 // createOdometer(videosOdometer, 790);
 
 const projectsOdometer = document.querySelector(".projects-odometer");
-createOdometer(projectsOdometer, 89);
+createOdometer(projectsOdometer, 4500);

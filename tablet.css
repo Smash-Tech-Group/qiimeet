@@ -353,3 +353,49 @@
   /*Footer Style ends*/
 
 }
+
+
+
+<section id="how">
+            <div class="how">
+                <h1>How It Works</h1>
+                <div class="whyQMcolumns">
+                    <div class="iconwrap">
+                        <img src="img/1.png" alt="tick" class="icon">
+                    </div>
+                    <div class="whytxt">
+                        <h4>Download Qiimeet</h4>
+                        <p>
+                            Download the must safe<br> and verifying dating app. 
+                        </p>
+                    </div>
+                    <div class="iconwrap">
+                        <img src="img/2.png" alt="tick" class="icon">
+                    </div>
+                    <div class="whytxt">
+                        <h4>Set Up Your Profile</h4>
+                        <p>
+                            Your profile is safe<br> and securely with advanced<br> data protection.
+                        </p>
+                    </div>
+                    <div class="iconwrap">
+                        <img src="img/3.png" alt="tick" class="icon">
+                    </div>
+                    <div class="whytxt">
+                        <h4>Match & Connect</h4>
+                        <p>
+                            The connection is for<br> mature and ready to connect<br> to life partern 
+                        </p>
+                    </div>
+                    <div class="iconwrap">
+                        <img src="img/4.png" alt="tick" class="icon">
+                    </div>
+                    <div class="whytxt">
+                        <h4>Chat & Video Call</h4>
+                        <p>
+                            Better way to know<br> your match better<br> before meeting.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </section>

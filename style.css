@@ -288,8 +288,9 @@ nav ul a:hover{
 /*How it works Style starts*/
 .how {
     height: 80vh;
+    width: 100%;
     color: #121212;
-    padding: 8rem;
+    padding: 4rem;
     align-items: center;
     place-items: center;
 }
@@ -303,7 +304,7 @@ nav ul a:hover{
     columns: 4 250px;
     align-items: center;
     display: flex;
-    text-align: right;
+    text-align: center;
 }
 
 .how img {

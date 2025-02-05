@@ -295,7 +295,7 @@
     /*How it works Style starts*/
     .how {
         color: #121212;
-        padding: 4rem;
+        padding: 1rem;
         align-items: center;
         place-items: center;
         width: 100%;
@@ -321,8 +321,12 @@
     }
     .how h4{
         margin-top: 1rem;
+        margin-right: 3rem !important;
     }
-
+    .how p{
+        margin-top: 1rem;
+        margin-right: 3rem !important;
+    }
     /* .howwrap{
         background-color: #EC066A;
         border-radius: 100% !important;
@@ -345,7 +349,7 @@
 
     /*Ready sec. Style Starts*/
     .ready {
-        margin-top: 25rem !important;
+        margin-top: 20rem !important;
         padding-top: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
