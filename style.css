@@ -5,12 +5,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans", serif;
+
+}
+
+/* Footer styles */
+.foot1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 html, body {
 min-width: 220px;
 position: relative;
 overflow-x: hidden;
+min-width: 250px;
+margin: 0 auto;
 }
 
 .logo {
@@ -341,7 +352,7 @@ nav ul a:hover{
     background-color: #FFE0ED;
     border-radius: 3rem;
     width: 80%;
-    margin: 0 auto;
+    margin: 5rem auto;
     display: flex;
     color: #EC066A;
     font-size: 1.5rem;
@@ -364,18 +375,20 @@ nav ul a:hover{
 /*Footer Style Starts*/
 #footer{
     background-color: #EC066A;
-    padding: 4rem;
-    margin-top: 8rem;
+    padding: 2rem;
+}
 
-}
 .socials{
-    margin-left: 50rem;
-    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .socials img {
     width: 2.5rem;
     height: 2.5rem;
     margin-left: 1rem;
+ 
 }
 .downloads{
     color: #fff;
@@ -388,10 +401,11 @@ nav ul a:hover{
     display: flex;
     color: #fff;
 }
+
 .footw{
     display: flex;
-    margin-left: 15rem;
     justify-content: space-evenly;
+    margin: 1.5rem 0 0;
 }
 .footw a{
     text-decoration: none;
