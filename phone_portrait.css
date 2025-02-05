@@ -405,10 +405,10 @@
     width: 8rem;
     height: 2rem;
 }    
-.foot2{
+/* .foot2{
     display: flex;
     flex-direction: column;
-}
+} */
 .footw {
     display: flex;
     flex-direction: column;
