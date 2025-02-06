@@ -22,7 +22,6 @@ position: relative;
 overflow-x: hidden;
 min-width: 250px;
 margin: 0 auto;
-background-color: green;
 }
 
 .logo {
@@ -368,7 +367,7 @@ nav ul a:hover{
 }
 .phone2 {
     background-position: bottom;
-    margin-left: 3rem;
+    margin-left: 7rem;
 }
 /*Ready sec. Style ends*/
 
