@@ -22,6 +22,7 @@ position: relative;
 overflow-x: hidden;
 min-width: 250px;
 margin: 0 auto;
+background-color: green;
 }
 
 .logo {

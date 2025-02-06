@@ -1,0 +1,520 @@
+@media(min-width:1200px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "DM Sans", serif;
+    
+    }
+    
+    /* Footer styles */
+    .foot1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    html, body {
+    min-width: 220px;
+    position: relative;
+    overflow-x: hidden;
+    min-width: 250px;
+    margin: 0 auto;
+    background-color: red;
+    }
+    
+    .logo {
+        max-width: 130px;
+        max-height: 40px;
+    }
+    
+    .btn {
+        background-color: #EC066A;
+        padding: 1rem 4rem;
+        border-radius: 2rem;
+        color: #fff;
+        transition: all 200ms ease-in;
+        border: 1px solid #EC066A;
+    
+    }
+    
+    .signBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signBtn a{
+        color: #fff
+    }
+    
+    .btn:nth-last-child(1){
+        margin-left: 24px;
+    }
+    
+    .btn:hover {
+        color: #ffffff;
+        border: 1px solid #fff;
+        background-color: transparent;
+    }
+    
+    /*Navbar Style Starts*/
+    .navbar{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 1rem;
+        position: absolute;
+        top: 0;
+        background: transparent;
+        z-index: 9999;
+    }
+    
+    ul{
+        display: flex;
+        list-style: none;
+        width: 40%;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 40rem;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    nav ul a:hover{
+        color: #EC066A;
+        font-weight: bold;
+    }
+    
+    .hamburger{
+        display: none;
+        cursor: pointer;
+    }
+    
+    .bar{
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        background-color: white;
+    }
+    /*Navbar Style ends*/
+    
+    /*Main Style Starts*/
+    /*Banner Style Starts*/
+    .background-image {
+        background-image: url('./img/banner.png');
+        object-fit: cover;
+        background-size:cover;
+        background-position: top center;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.10), rgba(220, 20, 60, 0.5));
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      
+    .overlay h1, .overlay p {
+        text-align: center;
+      }
+    
+    .overlay h1 {
+        font-size: 6rem;
+      }
+    
+    .overlay p {
+        margin-top: 2rem;
+        font-size: 2rem;
+      }
+    
+    .banner {
+        margin-top: 25rem;
+        align-items: center;
+        place-items: center;
+      }
+    
+    .bannerbtn{
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+    .bannerbtn img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+      }
+    
+      #appicon {
+        width: 6rem;
+        height: 1.5rem;
+      }
+    /*Banner Style ends*/
+    
+    /* Path Section Style Starts */
+    .path {
+        background: linear-gradient(#F7D8E5,#ffff);
+        height: 80vh;
+        columns: 2 250px;
+        padding: 8rem 18rem;
+        display: flex;
+        place-content: center;
+    }
+    .path1{
+        padding-top: 4rem;
+    }
+    .path h1 {
+        font-size: 5rem;
+        color: #121212;
+    }
+    .path p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: #888888;
+    }
+    .path2{
+        position: relative;
+    }
+    .path img {
+        width: 37rem;
+        height: 32rem;
+        margin-left: 5rem;
+        top: 0;
+    }
+    .num {
+        background-color: #F7D8E5;
+        color: #121212;
+        width: 25rem;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 15px;
+        display: flex;
+        margin-left: 6rem;
+        /* margin-bottom: 0; */
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .num2 {
+        border-width: 3px;
+        border-style: solid;
+        border-right: red;
+        padding-left: 1rem;
+        border-top: none;
+        border-bottom: none;
+        border-color: #EC066A;
+    }
+    .odometer.plus {
+        position: relative;
+      }
+      
+      .odometer.plus::after {
+        content: "+";
+        position: absolute;
+        top: 0;
+        right: -16px;
+        font-size: 20px;
+      }
+    /* Path Section Style Ends */
+    
+    /*Why Qiimeet Style starts*/
+    .whyqiimeet {
+        /* height: 80vh; */
+        background-color: #fff;
+        color: #000;
+        padding: 8rem;
+        align-items: center;
+        place-items: center;
+    }
+    
+    .whyqiimeet h1 {
+        font-size: 5rem;
+    }
+    
+    .whyQMcolumns{
+        margin-top: 3rem;
+        columns: 4 250px;
+        align-items: center;
+        place-items: center;
+    }
+    
+    /* .iconwrap{
+        background-color: #FFC2DC;
+        border-radius: 50%;
+        padding: 1.5rem;
+    } */
+    
+    .iconwrap .icon {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .whytxt {
+        text-align: center;
+        margin-top: 1rem;
+    
+    }
+    .whytxt h4 {
+        font-size: 1.5rem;
+    }
+    
+    .whytxt p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        color: #888888;
+    }
+    /*Why Qiimeet Style ends*/
+    
+    /*iphone15 sec. Style starts*/
+    .iphone-15 {
+        align-items: center;
+        place-items: center;
+    }
+    .iphone-15 img {
+        display: block;
+        margin: 0 auto;
+        height: 47.5rem;
+        width: 50rem;
+    }
+    /*iphone15 sec. Style ends*/
+    
+    /*How it works Style starts*/
+    .how {
+        height: 80vh;
+        width: 100%;
+        color: #121212;
+        padding-top: 4rem;
+        align-items: center;
+        place-items: center;
+    }
+    
+    .how h1 {
+        font-size: 5rem;
+    }
+    
+    .howcolumns{
+        margin-top: 3rem;
+        columns: 4 250px;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+    
+    .how img {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    /* .howwrap{
+        background-color: #EC066A;
+        border-radius: 50%;
+        padding: 1rem;
+        color: #ffff;
+        margin-left: 1rem;
+    } */
+    
+    .howtxt {
+        text-align: left;
+        margin-left: 2rem;
+        color: #121212;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .howtxt p {
+        margin-top: 1rem;
+        color: #888888;
+    }
+    /*How it works ends*/
+    
+    /*Ready sec. Style Starts*/
+    .ready {
+        margin-top: 0 !important;
+        padding-top: 5rem;
+        padding-left: 5rem;
+        align-items: center;
+        place-items: center;
+        background-color: #FFE0ED;
+        border-radius: 3rem;
+        width: 80%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        color: #EC066A;
+        font-size: 1.5rem;
+    }
+    .ready h1{
+        font-size: 5rem;
+    }
+    #black {
+        color: #121212;
+    }
+    .appstore {
+        width: 10rem;
+        height: 3rem;
+    }
+    .phone2 {
+        background-position: bottom;
+        margin-left: 20rem;
+    }
+    /*Ready sec. Style ends*/
+    
+    /*Main Style ends*/
+      
+    /*Footer Style Starts*/
+    #footer{
+        background-color: #EC066A;
+        padding: 2rem;
+        margin-top: 5rem;
+    }
+    
+    .socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .socials img {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 1rem;
+     
+    }
+    .downloads{
+        color: #fff;
+    }
+    .downloads img {
+        width: 9rem;
+        height: 3rem;
+    }    
+    .foot2{
+        display: flex;
+        color: #fff;
+        width: 90%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footer-link{
+        background-color: transparent;
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0px;
+    }
+    
+    .footer-content{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .footer-links{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        padding-bottom: 15px;
+    }
+    
+    .footer-link-item li {
+    color: #fff;
+    margin: 10px 0;
+    }
+    
+    .footer-socials{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between !important;
+        background-color: transparent;
+        padding-bottom: 1rem;
+        border-radius: 0rem;
+    }
+    
+    .social-logo{
+        display: flex;
+        width: 20%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .line{
+        margin-bottom: 1.5rem;
+    }
+    
+    .footer-link-item li {
+        font-size: 16px;
+        }
+    
+        h3 {
+            font-size: 24px;
+        }
+    
+    
+    .logo-socials{
+        width: 100%;
+    }
+    
+    .footer-link-item li a{
+        color: #fff;
+        text-align: left;
+        padding-bottom: 10px;
+        }
+    
+    .footer-link-item{
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0px;
+        background-color: transparent;
+        padding: 0;
+    }
+    
+    
+    .footw{
+        display: flex;
+        justify-content: space-evenly;
+        color: #fff;
+        margin-top: 0;
+        margin-left: 20rem;
+    }
+    .footw a{
+        text-decoration: none;
+        color: #fff;
+        line-height: 2rem;
+    }
+    .foottext{
+    }
+    /*Footer Style ends*/
+
+}
+
+
+
