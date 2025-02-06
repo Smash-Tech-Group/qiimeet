@@ -402,7 +402,89 @@ nav ul a:hover{
 .foot2{
     display: flex;
     color: #fff;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.footer-link{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0px;
+}
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.footer-link-item li {
+color: #fff;
+margin: 10px 0;
+}
+
+.footer-socials{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between !important;
+    background-color: transparent;
+    padding-bottom: 1rem;
+    border-radius: 0rem;
+}
+
+.social-logo{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line{
+    margin-bottom: 1.5rem;
+}
+
+.footer-link-item li {
+    font-size: 16px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+
+.logo-socials{
+    width: 100%;
+}
+
+.footer-link-item li a{
+    color: #fff;
+    text-align: left;
+    padding-bottom: 10px;
+    }
+
+.footer-link-item{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0px;
+    background-color: transparent;
+    padding: 0;
+}
+
 
 .footw{
     display: flex;
@@ -417,7 +499,6 @@ nav ul a:hover{
     line-height: 2rem;
 }
 .foottext{
-    margin-left: 8rem;
 }
 /*Footer Style ends*/
 

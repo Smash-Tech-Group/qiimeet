@@ -1,5 +1,5 @@
 /*Media query Starts*/
-@media(max-width:400px){
+@media(max-width:500px){
     .hamburger{
       display: block;
     }
@@ -19,6 +19,39 @@
         padding: 0;
         box-sizing: border-box;
         font-family: "DM Sans", serif;        
+    }
+
+
+    .footer-content{
+        flex-direction: column;
+      }
+
+      .footer-links {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        padding: 15px 0;
+    }
+
+    #footer{
+        padding: .9rem;
+    }
+
+    .footer-link-item li {
+    font-size: 13px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    .social-logo {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: space-between;
     }
 
 
@@ -387,11 +420,7 @@
 /*Ready sec. Style ends*/
 
 /*Footer Style Starts*/
-#footer{
-    background-color: #EC066A;
-    padding: 2rem;
-    margin-top: 5rem;
-}
+
 .footlogo{
     width: 6rem;
 }
