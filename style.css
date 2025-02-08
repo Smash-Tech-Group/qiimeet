@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans", serif;
-
 }
 
 /* Footer styles */
@@ -24,6 +23,11 @@ min-width: 250px;
 margin: 0 auto;
 }
 
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .logo {
     max-width: 130px;
     max-height: 40px;
@@ -36,6 +40,8 @@ margin: 0 auto;
     color: #fff;
     transition: all 200ms ease-in;
     border: 1px solid #EC066A;
+    text-decoration: none;
+    font-weight: 600;
 
 }
 
@@ -45,18 +51,23 @@ margin: 0 auto;
     justify-content: center;
 }
 
-.signBtn a{
-    color: #fff
+.signBtn:nth-last-child(1){
+    margin-left: 1.5rem;
 }
 
-.btn:nth-last-child(1){
-    margin-left: 24px;
+.signBtn a{
+    color: #fff;
 }
+
+/* .btn:nth-last-child(1){
+    margin-left: 24px;
+} */
 
 .btn:hover {
     color: #ffffff;
     border: 1px solid #fff;
     background-color: transparent;
+    transition: all 200ms ease-in;
 }
 
 /*Navbar Style Starts*/
@@ -65,33 +76,39 @@ margin: 0 auto;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 1rem;
-    position: absolute;
+    padding: 2rem;
     top: 0;
+    position: absolute;
     background: transparent;
     z-index: 9999;
+    left: 50%;
+    transform: translate(-50%, 1%);
 }
 
-ul{
+.nav-menu{
     display: flex;
     list-style: none;
-    width: 40%;
+    width: 55%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 1.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     background-color: #fff;
-    padding: 1rem;
     border-radius: 40rem;
 }
 
-a{
+.nav-menu li a{
     text-decoration: none;
     color: #000;
+    font-weight: 600;
 }
 
-nav ul a:hover{
-    color: #EC066A;
-    font-weight: bold;
+.nav-menu li a:hover{
+color: #EC066A;
+transition: all 200ms ease-in;
 }
+
 
 .hamburger{
     display: none;
@@ -117,12 +134,11 @@ nav ul a:hover{
     background-size:cover;
     background-position: top center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
 .overlay {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -148,41 +164,56 @@ nav ul a:hover{
   }
 
 .banner {
-    margin-top: 13rem;
-    align-items: center;
-    place-items: center;
+position: absolute;
+ top: 50%;
+left: 50%;
+ margin: 0 auto;
+ position: relative;
+ transform: translate(-50%, -50%)
   }
 
+.banner-content{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .bannerbtn{
-    margin-top: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    max-width: 100%;
+    justify-content: center;
+    margin: 5rem auto;
+  }
+
+  .bannerbtn a{
+    font-weight: 600;
   }
 
 .bannerbtn img {
     width: 20px;
     height: 20px;
-    margin-left: 10px;
   }
 
   #appicon {
     width: 6rem;
-    height: 1.5rem;
   }
 /*Banner Style ends*/
 
 /* Path Section Style Starts */
-.path {
+
+.love-section{
     background: linear-gradient(#F7D8E5,#ffff);
-    height: 80vh;
-    columns: 2 250px;
-    padding: 5rem 10rem;
+
+} 
+
+
+.path {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
 }
-.path1{
-    padding-top: 4rem;
-}
+
 .path h1 {
     font-size: 3rem;
     color: #121212;
@@ -212,7 +243,7 @@ nav ul a:hover{
     padding: 10px;
     display: flex;
     margin-left: 6rem;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
     align-items: center;
     justify-content: space-between;
     text-align: center;
@@ -242,12 +273,11 @@ nav ul a:hover{
 
 /*Why Qiimeet Style starts*/
 .whyqiimeet {
-    height: 80vh;
     background-color: #fff;
     color: #000;
-    padding: 8rem;
+    padding: 0 6rem 6rem;
     align-items: center;
-    place-items: center;
+    text-align: center;
 }
 
 .whyqiimeet h1 {
@@ -255,10 +285,13 @@ nav ul a:hover{
 }
 
 .whyQMcolumns{
-    margin-top: 3rem;
-    columns: 4 250px;
-    align-items: center;
-    place-items: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+max-width: 80%;
+margin: 0 auto;
+margin-top: 3rem;
 }
 
 /* .iconwrap{
@@ -298,12 +331,22 @@ nav ul a:hover{
 
 /*How it works Style starts*/
 .how {
-    height: 80vh;
     width: 100%;
     color: #121212;
-    padding: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
     align-items: center;
     place-items: center;
+}
+
+.how-it-work-item{
+    display: flex;
+    align-items: center;
+    margin: 20px 25px;
 }
 
 .how h1 {
@@ -312,17 +355,16 @@ nav ul a:hover{
 
 .howcolumns{
     margin-top: 3rem;
-    columns: 4 250px;
     align-items: center;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .how img {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 }
-
 /* .howwrap{
     background-color: #EC066A;
     border-radius: 50%;
@@ -353,8 +395,7 @@ nav ul a:hover{
     border-radius: 3rem;
     width: 80%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3rem auto;
     color: #EC066A;
     font-size: 1.5rem;
 }
@@ -448,10 +489,12 @@ margin: 10px 0;
 
 .social-logo{
     display: flex;
-    width: 20%;
+    width: 15%;
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 .line{
     margin-bottom: 1.5rem;

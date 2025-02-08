@@ -4,105 +4,9 @@
       display: block;
     }
   
-    .hamburger.active .bar:nth-child(2){
-      opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-      transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg); 
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "DM Sans", serif;        
-    }
-
-
-    .footer-content{
-        flex-direction: column;
-      }
-
-      .footer-links {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        color: #fff;
-        padding: 15px 0;
-    }
-
-    #footer{
-        padding: .9rem;
-    }
-
-    .footer-link-item li {
-    font-size: 13px;
-    }
-
-    h3 {
-        font-size: 17px;
-    }
-
-    .social-logo {
-        display: flex;
-        width: 60%;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-
-    /* footer styles */
-    .foot1{
-        padding-top: 10px;
-    }
-    
-    html, body {
-    min-width: 220px;
-    position: relative;
-    overflow-x: hidden;
-    }
-    
-    
-    .logo {
-        max-width: 120px;
-        max-height: 30px;
-    }
-    
-    .btn {
-        background-color: #EC066A;
-        padding: 0.5rem 2rem;
-        border-radius: 2rem;
-        color: #fff;
-        transition: all 200ms ease-in;
-        border: 0.5px solid #EC066A;
-    
-    }
-    
-    .signBtn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .signBtn a{
-        color: #fff
-    }
-    
-    .btn:nth-last-child(1){
-        margin-left: 24px;
-    }
-    
-    .btn:hover {
-        color: #ffffff;
-        border: 0.5px solid #fff;
-        background-color: transparent;
-    }
-    
   
+
+   
     .nav-menu{
         position: fixed;
         left: 100%;
@@ -117,22 +21,6 @@
         list-style: none;
         align-items: center;
         justify-content: space-evenly;
-    }
-
-    ul {
-        border-radius: 0;
-    }
-  
-    .nav-item{
-      margin: 16px 0;
-    }
-  
-    .nav-menu.active{
-      left: 0;
-    }
-
-    .nav-link{
-        color: #fff;
     }
 
     .btn1{
@@ -160,6 +48,10 @@
     position: relative;
 }
 
+.banner-content{
+    width: 100%;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -179,25 +71,41 @@
   }
 
 .overlay h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
 .overlay p {
     margin-top: 2rem;
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
-.banner {
-    margin-top: 13rem;
-    align-items: center;
-    place-items: center;
-  }
 
-.bannerbtn{
-    margin-top: 5rem;
+  .btn {
+    background-color: #EC066A;
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    transition: all 200ms ease-in;
+    border: 1px solid #EC066A;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.bannerbtn {
+    margin-top: 2.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+}
+
+.break{
+    display: none;
+}
+
+.banner {
+    align-items: center;
+    place-items: center;
   }
 
 .bannerbtn img {
@@ -222,11 +130,31 @@
         text-align: center;
     }
     .path p {
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: 1.5rem;
         color: #888888;
         text-align: center;
     }
+
+    .num {
+        background-color: #F7D8E5;
+        color: #121212;
+        width: 14rem;
+        height: 4rem;
+        line-height: 0.5;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 7px !important;
+        display: flex;
+        margin-left: .5rem;
+        margin-bottom: 0;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
     .path img {
         display: block;
         margin-left: auto;
@@ -276,10 +204,13 @@
     .whyqiimeet {
         background-color: #fff;
         color: #000;
-        padding-top: 10rem;
+        padding-top: 1rem;
+        padding: 0 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         align-items: center;
         place-items: center;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
     }
 
     .whyqiimeet h1 {
@@ -321,7 +252,8 @@
     .iphone-15 {
         align-items: center;
         place-items: center;
-        padding-top: 35rem;
+        padding-top: 2rem;
+        padding-bottom: 2srem;
     }
     .iphone-15 img {
         display: block;
@@ -334,20 +266,78 @@
     /*How it works Style starts*/
     .how {
         color: #121212;
-        padding: 1rem;
+        padding-top: 4.5rem;
+        padding-bottom: 4rem;
         align-items: center;
         place-items: center;
         width: 100%;
         text-align: center;
     }
 
+
+    .social-img img{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-img a{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+
+    .footer-links {
+        display: block;
+        width: 50%;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        padding-bottom: 15px;
+    }
+
+    .footer-link-item{
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .footer-link-item li a{
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .social-logo{
+        width: 100%;
+    }
+
+    .footer-socials {
+        display: flex;
+        list-style: none;
+        width: 92%;
+        align-items: center;
+        justify-content: space-between !important;
+        background-color: transparent;
+        padding-bottom: 1rem;
+        border-radius: 0rem;
+    }
+    
+
     .how h1 {
         font-size: 2rem;
         text-align: center;
     }
 
+    .how-it-work-item {
+        display: flex;
+        align-items: center;
+        margin: 20px 25px;
+        flex-direction: column;
+    }
+
     .howcolumns{
-        margin-top: 3rem;
+        margin-top: 1rem;
         align-items: center;
         text-align: center;
         flex-direction: column;
@@ -360,11 +350,10 @@
     }
     .how h4{
         margin-top: 1rem;
-        margin-right: 3rem !important;
     }
+    
     .how p{
         margin-top: 1rem;
-        margin-right: 3rem !important;
     }
     /* .howwrap{
         background-color: #EC066A;
@@ -376,7 +365,7 @@
 
     .howtxt {
         text-align: center;
-        margin-left: 2rem;
+        margin-left: 0rem;
         color: #121212;
     }
 
@@ -388,7 +377,7 @@
 
     /*Ready sec. Style Starts*/
     .ready {
-        margin-top: 20rem !important;
+        margin-top: 0rem !important;
         padding-top: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
