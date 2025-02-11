@@ -514,35 +514,15 @@ margin: 10px 0;
 }
 
 .footer-link-item li a{
+    text-decoration: none !important;
+    list-style-image: none !important;
     color: #fff;
     text-align: left;
     padding-bottom: 10px;
     }
 
-.footer-link-item{
-    display: block;
-    width: 100%;
-    padding: 1rem;
-    border-radius: 0px;
-    background-color: transparent;
-    padding: 0;
-}
 
 
-.footw{
-    display: flex;
-    justify-content: space-evenly;
-    color: #fff;
-    margin-top: 0;
-    margin-left: 20rem;
-}
-.footw a{
-    text-decoration: none;
-    color: #fff;
-    line-height: 2rem;
-}
-.foottext{
-}
 /*Footer Style ends*/
 
    

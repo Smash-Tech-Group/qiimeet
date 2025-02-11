@@ -1,39 +1,56 @@
 /*Media query Starts*/
 @media(max-width:500px){
     .hamburger{
-      display: block;
-    }
+        display: block;
+      }
+    
+      .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    
+      .nav-menu{
+          position: fixed;
+          left: 100%;
+          top: 100px;
+          gap: 0;
+          flex-direction: column;
+          background-color: #EC066A;
+          width: 90%;
+          text-align: center;
+          transition: 0.3s;
+          display: flex;
+          list-style: none;
+          align-items: center;
+          justify-content: space-evenly;
+      }
   
+      ul {
+          border-radius: 0 !important;
+      }
+    
+      .nav-item{
+        margin: 16px 0;
+      }
+    
+      .nav-menu.active{
+        left: 0;
+      }
   
+      .nav-link{
+          color: #fff !important;
+      }
+  
+      .btn1{
+          display: none;
+      }
 
-   
-    .nav-menu{
-        position: fixed;
-        left: 100%;
-        top: 100px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #EC066A;
-        width: 90%;
-        text-align: center;
-        transition: 0.3s;
-        display: flex;
-        list-style: none;
-        align-items: center;
-        justify-content: space-evenly;
-    }
 
-    .btn1{
-        display: none;
-    }
-    .overlay p {
-        margin: 1rem;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-    .signBtn {
-        margin-top: 0rem;
-    }
 /*Navbar Style ends*/
 
 /*Main Style Starts*/
@@ -424,7 +441,7 @@
 }
 .downloads img {
     width: 8rem;
-    height: 2rem;
+    height: 2.5rem !important;
 }    
 .foot2{
     display: flex;
