@@ -8,8 +8,8 @@ function Features() {
     <div className="scroll-smooth">
       
       {/* Hero Section */}
-      <section className="relative w-full min-h-screen flex items-center justify-center">
-        <div className="absolute inset-0 bg-[url('/qiimeetbg.png')]"></div>
+      <section className="relative w-full min-h-screen flex items-center justify-center bg-[url('/qiimeetbg.png')] bg-no-repeat bg-cover">
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 text-center text-white z-10">
           <motion.h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
                         initial={{ y: 20, opacity: 0 }}
