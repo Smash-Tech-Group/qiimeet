@@ -213,9 +213,9 @@ function About() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-[#EC066A] rounded-3xl blur-2xl opacity-20"></div>
                 <Image
-                  src="/couple.png"
+                  src="/ceo.png"
                   alt="Qiimeet team"
-                  className="relative w-full h-auto max-w-lg rounded-3xl shadow-2xl"
+                  className="relative w-full h-auto max-w-lg rounded-3xl "
                   width={500}
                   height={600}
                 />
