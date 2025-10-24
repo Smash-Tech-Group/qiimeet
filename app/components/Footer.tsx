@@ -108,11 +108,11 @@ function Footer() {
                   support@qiimeet.com
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="tel:+234-QIIMEET" className="text-white/70 text-[0.95rem] transition-colors duration-200 hover:text-white">
                   +234-QIIMEET
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

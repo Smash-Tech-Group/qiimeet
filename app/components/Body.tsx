@@ -34,7 +34,7 @@ function Body() {
                 preload="metadata"
                 className="absolute top-0 left-0 w-full h-full object-cover"
                 >
-                <source src="https://res.cloudinary.com/dyq3cwnwl/video/upload/v1761044012/qiimeethero_rlzo1i.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/dyq3cwnwl/video/upload/v1761202737/Qiimeet_Landing_Page_1_1_ktpzd8.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
@@ -233,24 +233,7 @@ function Body() {
                     </div>
                 </div>
                 
-                <div className='flex flex-1 flex-col space-y-6 lg:pr-12'>
-                    <h2 className='text-4xl md:text-5xl font-bold text-gray-900 leading-tight'>
-                        Your Path to <br />
-                        <span className='text-[#EC066A]'>
-                            Real Connections
-                        </span>
-                    </h2>
-                    <p className='text-lg md:text-xl text-gray-600 leading-relaxed'>
-                        Qiimeet is a dating app designed to connect you
-                        with people who share your values and vision for the
-                        future. Whether you&apos;re looking for a friendship that
-                        blossoms into something deeper or seeking your life
-                        partner, Qiimeet makes the process easy, secure,
-                        and purposeful.
-                    </p>
-                </div>
-
-                
+         
             </div>
         </section>
 
@@ -315,7 +298,7 @@ function Body() {
                     <div>
                         <h3 className='text-xl md:text-2xl font-semibold mb-2'>Get more with</h3>
                         <h2 className='text-5xl md:text-6xl lg:text-7xl font-black mb-6'>
-                            QIIMEET <span className='font-light'>PRO</span>
+                            QIIMEET <span className='font-light'>PREMIUM</span>
                         </h2>
                         <p className='text-lg md:text-xl mb-8'>
                             Upgrade your experience with QIIMEET Pro and unlock 30+ advanced features:
@@ -384,10 +367,10 @@ function Body() {
                 <div className='flex justify-center lg:justify-end'>
                     <div className='relative max-w-md'>
                         <Image
-                            src='/premium.png'
+                            src='/premium1.png'
                             alt='Qiimeet Pro App Preview'
                             loading="lazy"
-                            width={400}
+                            width={800}
                             height={800}
                             className='relative z-10 drop-shadow-2xl'
                         />

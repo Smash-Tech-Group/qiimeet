@@ -7,8 +7,8 @@ function About() {
     <div className="scroll-smooth">
       
       {/* Hero Section */}
-      <section className="relative w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-900">
-        <div className="absolute inset-0 bg-black/50"></div>
+      <section className="relative w-full min-h-screen flex items-center justify-center bg-[url('/qiimeetbg.png')] bg-no-repeat bg-cover">
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 text-center text-white z-10">
           <motion.h1 
             className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
@@ -213,9 +213,9 @@ function About() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-[#EC066A] rounded-3xl blur-2xl opacity-20"></div>
                 <Image
-                  src="/couple.png"
+                  src="/ceo.png"
                   alt="Qiimeet team"
-                  className="relative w-full h-auto max-w-lg rounded-3xl shadow-2xl"
+                  className="relative w-full h-auto max-w-lg rounded-3xl "
                   width={500}
                   height={600}
                 />
