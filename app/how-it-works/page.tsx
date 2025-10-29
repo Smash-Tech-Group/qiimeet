@@ -423,12 +423,12 @@ function Works() {
                   initial={{ y: 30, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 + 1 * 0.1 }}
+                  transition={{ duration: 0.3, ease: "easeOut", delay: 0.3 + 1 * 0.1 }}
                 >
               <div className="text-center mb-6">
                 <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 ring-2 ring-gray-200">
                   <Image 
-                    src="/ng/nigerian1.jpeg" 
+                    src="/couple1.webp" 
                     alt="User Avatar" 
                     width={64} 
                     height={64} 
@@ -449,12 +449,12 @@ function Works() {
                     initial={{ y: 30, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: true, amount: 0.3 }}
-                    transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 + 2 * 0.1 }}
+                    transition={{ duration: 0.3, ease: "easeOut", delay: 0.3 + 1.5 * 0.1 }}
                   >
               <div className="text-center mb-6">
                 <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 ring-2 ring-gray-200">
                   <Image 
-                    src="/ng/nigerian2.jpeg" 
+                    src="/couple2.webp" 
                     alt="User Avatar" 
                     width={64} 
                     height={64} 
@@ -475,12 +475,12 @@ function Works() {
                   initial={{ y: 30, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 + 3 * 0.1 }}
+                  transition={{ duration: 0.3, ease: "easeOut", delay: 0.3 + 2 * 0.1 }}
                 >
               <div className="text-center mb-6">
                 <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 ring-2 ring-gray-200">
                   <Image 
-                    src="/ng/nigerian3.jpeg" 
+                    src="/couple3.webp" 
                     alt="User Avatar" 
                     width={64} 
                     height={64} 
