@@ -112,7 +112,7 @@ function Body() {
                     <div className='relative'>
                         <div className='absolute -inset-4 bg-[#EC066A] rounded-3xl blur-2xl opacity-20'></div>
                         <Image
-                            src="/couple.png"
+                            src="/newhere.webp"
                             alt="Happy couple using Qiimeet"
                             className="relative w-full h-auto max-w-lg rounded-3xl shadow-2xl"
                             priority
@@ -211,39 +211,13 @@ function Body() {
             </div>
         </section>
 
-
-
-
-
-        <section className='relative w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 py-20'>
-            <div className='max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
-                
-                
-                <div className='flex flex-1 justify-center lg:justify-end'>
-                    <div className='relative'>
-                        <div className='absolute -inset-4 bg-[#EC066A] rounded-3xl blur-2xl opacity-20'></div>
-                        <Image
-                            src="/couple.png"
-                            alt="Happy couple using Qiimeet"
-                            className="relative w-full h-auto max-w-lg rounded-3xl shadow-2xl"
-                            loading="lazy"
-                            width={500}
-                            height={600}
-                         />
-                    </div>
-                </div>
-                
-         
-            </div>
-        </section>
-
         
 
 
 
 
 
-        <section className='relative w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 py-20'>
+        {/* <section className='relative w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 py-20'>
             <div className='max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
                
                 <div className='flex flex-col space-y-6 lg:pr-12'>
@@ -268,7 +242,7 @@ function Body() {
                     <div className='relative'>
                         <div className='absolute -inset-4 bg-[#EC066A] rounded-3xl blur-2xl opacity-20'></div>
                         <Image
-                            src="/couple.png"
+                            src="/newhere.webp"
                             alt="Happy couple using Qiimeet"
                             className="relative w-full h-auto max-w-lg rounded-3xl shadow-2xl"
                             loading="lazy"
@@ -278,7 +252,7 @@ function Body() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
 
 
 
@@ -367,8 +341,8 @@ function Body() {
                 <div className='flex justify-center lg:justify-end'>
                     <div className='relative max-w-md'>
                         <Image
-                            src='/premium1.png'
-                            alt='Qiimeet Pro App Preview'
+                            src='/qpremium.png'
+                            alt='Qiimeet Premium App Preview'
                             loading="lazy"
                             width={800}
                             height={800}

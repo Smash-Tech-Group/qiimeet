@@ -73,7 +73,7 @@ function Navbar() {
       <div className="hidden md:block">
         <a 
           href="#ready" 
-          className="bg-[#EC066A] px-8 py-3.5 rounded-lg text-white transition-all duration-200 border-2 border-[#EC066A] font-semibold text-base cursor-pointer inline-block hover:bg-[#d40560] hover:border-[#d40560] hover:-translate-y-0.5"
+          className="bg-[#EC066A] hover:bg-[#d40560] text-white font-semibold py-3 px-8 rounded-full transition transform hover:scale-105 shadow-lg"
         >
           Download
         </a>

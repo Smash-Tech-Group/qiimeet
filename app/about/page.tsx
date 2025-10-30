@@ -18,19 +18,20 @@ function About() {
 
                     
             Hello. We&apos;re <br />
-            <span className="text-[#EC066A]">The Love Company.</span>
+            <span className="text-[#EC066A]">Qiimeet.</span>
           </motion.h1>
           <motion.p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed mb-8"
              initial={{ y: 20, opacity: 0 }}
              animate={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut", delay: 0.25 }}>
-            We believe love—in all its forms—is the foundation to a happy, healthy life.
+            To us, love isn&apos;t just an emotion. it&apos;s the heartbeat of a fulfilled life.
           </motion.p>
           <motion.p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90"
              initial={{ y: 20, opacity: 0 }}
              animate={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}>
-            In 2024, we rewrote the dating rules. The result? A member-first platform built to create kind, healthy connections.
+            We are turning the page on modern dating.
+            It&apos;s going to be about intention, kindness, and connection that actually feels good.
           </motion.p>
         </div>
       </section>
@@ -50,11 +51,11 @@ function About() {
             {/* 2024 */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <div className="text-[#EC066A] text-2xl font-bold">2024</div>
+                <div className="text-[#EC066A] text-2xl font-bold">2025</div>
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-900">Qiimeet is born</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   We flipped dating norms and created a platform where meaningful connections happen first. 
-                  No more endless swiping—just genuine conversations with people who share your values.
+                  No more endless swiping, just genuine conversations with people who share your values.
                 </p>
               </div>
               <div className="flex justify-center">
@@ -75,9 +76,9 @@ function About() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center lg:order-first">
                 <div className="relative">
-                  <div className="absolute -inset-4 bg-[#EC066A] rounded-3xl blur-2xl opacity-20"></div>
+                  <div className="absolute -inset-4 "></div>
                   <Image
-                    src="/couple.png"
+                    src="/premium1.png"
                     alt="Qiimeet community"
                     className="relative w-full h-auto max-w-md rounded-3xl shadow-2xl"
                     width={400}
@@ -86,7 +87,7 @@ function About() {
                 </div>
               </div>
               <div className="space-y-6">
-                <div className="text-[#EC066A] text-2xl font-bold">2024</div>
+                <div className="text-[#EC066A] text-2xl font-bold">2025</div>
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-900">Beyond dating</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   We launched features to help people find their people. Because love is platonic, too. 
@@ -101,15 +102,15 @@ function About() {
                 <div className="text-[#EC066A] text-2xl font-bold">2025</div>
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-900">Leading with love</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Now, we&apos;re building a future where love feels possible for everyone. Using technology and AI 
+                  Now, we&apos;re building a future where love feels possible for everyone. Using technology 
                   to deepen human connection, not replace it. Creating a community where everyone feels welcome.
                 </p>
               </div>
               <div className="flex justify-center">
                 <div className="relative">
-                  <div className="absolute -inset-4 bg-[#EC066A] rounded-3xl blur-2xl opacity-20"></div>
+                  <div className="absolute -inset-4 "></div>
                   <Image
-                    src="/couple.png"
+                    src="/couple3.webp"
                     alt="Qiimeet future"
                     className="relative w-full h-auto max-w-md rounded-3xl shadow-2xl"
                     width={400}
@@ -187,7 +188,7 @@ function About() {
       </section>
 
       {/* Founder Section */}
-      <section className="relative w-full py-20 bg-gradient-to-b from-white to-gray-50">
+      {/* <section className="relative w-full py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
@@ -223,7 +224,7 @@ function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="relative w-full py-20 bg-[#EC066A]">
